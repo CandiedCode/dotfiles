@@ -1,0 +1,36 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+
+    // files
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.yaml": "yaml",
+        "*.rmd": "markdown",
+        "*.toml": "toml"
+    },
+
+    // go tools
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.formatTool": "goimports",
+
+    "cSpell.userWords": [
+        "Akka"
+    ],
+
+    // editor settings
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+
+    "workbench.colorTheme": "Solarized Dark"
+}
