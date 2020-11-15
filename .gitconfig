@@ -1,0 +1,25 @@
+[user]
+	name = Jennifer Cwagenberg
+	email = CandiedCode@gmail.com
+	signingkey = 8A39C4C95C9DD015
+
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"
+    
+[core]
+	excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+
+    # Treat spaces before tabs and all kinds of trailing whitespace as an error
+    # [default] trailing-space: looks for spaces at the end of a line
+    # [default] space-before-tab: looks for spaces before tabs at the beginning of a line
+    whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+
+[commit]
+	gpgsign = true
+
+[pull]
+	rebase = true
+
+[gpg]
+	program = gpg

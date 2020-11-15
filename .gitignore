@@ -1,0 +1,5 @@
+# jebrains
+.idea/
+
+# mac
+.DS_Store
