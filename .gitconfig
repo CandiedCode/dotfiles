@@ -15,6 +15,12 @@
     # [default] space-before-tab: looks for spaces before tabs at the beginning of a line
     whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 
+[merge]
+    ff = only
+
+[fetch]
+    prune = true
+
 [commit]
 	gpgsign = true
 

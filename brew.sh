@@ -7,6 +7,8 @@ brew install coreutils
 brew install ed
 brew install findutils
 brew install gawk
+brew install golangci-lint
+brew install goreleaser/tap/goreleaser
 brew install gnu-sed
 brew install gnu-tar
 brew install gnupg
