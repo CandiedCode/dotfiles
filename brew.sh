@@ -16,7 +16,6 @@ brew install gpg
 brew install graphviz
 brew install grep
 brew install hugo
-brew cask install joplin
 brew install kind
 brew install kubeval
 brew install kustomize
