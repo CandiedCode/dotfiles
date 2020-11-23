@@ -38,6 +38,7 @@
 	brd = branch -d
 	brD = branch -D
 	merged = branch --merged
+    mergedD = !git branch --merged | grep -v \"\\* main\" | xargs -n 1 git branch -d
 	st = status
 	aa = add -A .
 	cm = commit -m
