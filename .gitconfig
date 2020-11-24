@@ -38,7 +38,7 @@
 	brd = branch -d
 	brD = branch -D
 	merged = branch --merged
-    mergedD = !git branch --merged | grep -v \"\\* main\" | xargs -n 1 git branch -d
+        prune = !git branch --merged | grep -v \"\\* main\" | xargs -n 1 git branch -d
 	st = status
 	aa = add -A .
 	cm = commit -m
@@ -66,4 +66,4 @@
 	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
 	f = "!git ls-files | grep -i"
 	gr = grep -Ii
-    la = "!git config -l | grep alias | cut -c 7-"
+        la = "!git config -l | grep alias | cut -c 7-"
