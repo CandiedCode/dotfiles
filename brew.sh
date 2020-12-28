@@ -3,10 +3,12 @@
 brew update && brew upgrade
 
 brew install awscli
+brew install checkov
 brew install coreutils
 brew install ed
 brew install findutils
 brew install gawk
+brew install git-secrets
 brew install golangci-lint
 brew install goreleaser/tap/goreleaser
 brew install gnu-sed
