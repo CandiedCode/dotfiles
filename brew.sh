@@ -23,6 +23,7 @@ brew install make
 brew install opa
 brew install pinentry-mac
 brew install protobuf
+brew install pre-commit
 brew install swagger-codegen
 brew install skaffold
 brew install shellcheck
