@@ -4,6 +4,7 @@ brew update && brew upgrade
 
 brew install awscli
 brew install coreutils
+brew install earthly
 brew install ed
 brew install findutils
 brew install gawk
@@ -20,12 +21,14 @@ brew install kind
 brew install kubeval
 brew install kustomize
 brew install make
+brew install markdownlint-cli 
 brew install opa
 brew install pinentry-mac
 brew install protobuf
 brew install swagger-codegen
 brew install skaffold
 brew install shellcheck
+brew install tfsec
 brew install tfswitch
 brew install terragrunt
 brew install tmux
