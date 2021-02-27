@@ -2,6 +2,7 @@
 
 brew update && brew upgrade
 
+brew install ansible
 brew install awscli
 brew install checkov
 brew install coreutils
